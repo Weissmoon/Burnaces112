@@ -1,0 +1,15 @@
+[
+{
+  "modid": "metalfurnace",
+  "name": "Metal Furnaces",
+  "version": "0.0.1",
+  "mcVersion": "1.12.2",
+  "authorList": [
+    "Weissmoon"
+  ],
+  "description": "More furnaces.",
+  "dependencies": [
+         "WeissCore"
+  ]
+}
+]

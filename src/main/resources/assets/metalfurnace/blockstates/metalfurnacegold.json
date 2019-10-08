@@ -1,0 +1,24 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "metalfurnace:metalfurnacemodel",
+    "textures": {
+      "top": "metalfurnace:goldfurnacetop",
+      "bottom": "metalfurnace:goldfurnacetop",
+      "front": "metalfurnace:goldfurnacefront",
+      "side": "metalfurnace:goldfurnaceside",
+      "particle": "metalfurnace:goldfurnacefront"
+    }
+  },
+  "variants": {
+    "inventory": [{}], "normal": [{}],
+    "facing=north,ison=false": { "model": "metalfurnace:metalfurnacemodel" },
+    "facing=south,ison=false": { "model": "metalfurnace:metalfurnacemodel", "y": 180 },
+    "facing=west,ison=false":  { "model": "metalfurnace:metalfurnacemodel", "y": 270 },
+    "facing=east,ison=false":  { "model": "metalfurnace:metalfurnacemodel", "y": 90 },
+    "facing=north,ison=true": { "model": "metalfurnace:metalfurnacemodel", "textures":{"front": "metalfurnace:goldfurnacefrontlit"}},
+    "facing=south,ison=true": { "model": "metalfurnace:metalfurnacemodel", "textures":{"front": "metalfurnace:goldfurnacefrontlit"}, "y": 180 },
+    "facing=west,ison=true":  { "model": "metalfurnace:metalfurnacemodel", "textures":{"front": "metalfurnace:goldfurnacefrontlit"}, "y": 270 },
+    "facing=east,ison=true":  { "model": "metalfurnace:metalfurnacemodel", "textures":{"front": "metalfurnace:goldfurnacefrontlit"}, "y": 90 }
+  }
+}

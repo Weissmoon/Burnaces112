@@ -1,0 +1,12 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "metalfurnace:block/metalfurnace"
+  },
+  "variants": {
+    "facing=north": { "model": "metalfurnce:metalfurnace" },
+    "facing=south": { "model": "metalfurnce:metalfurnace", "y": 180 },
+    "facing=west":  { "model": "metalfurnce:metalfurnace", "y": 270 },
+    "facing=east":  { "model": "metalfurnce:metalfurnace", "y": 90 }
+  }
+}
