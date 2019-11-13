@@ -12,6 +12,7 @@ import net.minecraft.util.math.MathHelper;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 import net.minecraftforge.items.ItemHandlerHelper;
 import net.minecraftforge.oredict.OreDictionary;
+import weissmoon.core.helper.RNGHelper;
 import weissmoon.metalfurnace.lib.FurnaceType;
 
 import java.util.Map;
@@ -156,6 +157,11 @@ public class TileMetalFurnace extends TileEntityFurnace{
             this.furnaceItemStacks.set(2, recipeOutput.copy());
         }else if (itemsMatch(recipeOutput, outputStack)){
             outputStack.grow(recipeOutput.getCount());
+        }
+        if (this.furnaceType == FurnaceType.OBSIDIAN){
+            if(RNGHelper.getRNGFloat()>.25){
+                outputStack.grow(recipeOutput.getCount());
+            }
         }
 
         if (inputStack.isItemEqual(WET_SPONGE) && this.furnaceItemStacks.get(1).getItem() == Items.BUCKET){

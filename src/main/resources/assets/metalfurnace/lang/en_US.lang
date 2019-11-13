@@ -1,4 +1,6 @@
 tile.metalfurnace:metalfurnaceiron.name=Iron Furnace
 tile.metalfurnace:metalfurnacegold.name=Gold Furnace
 tile.metalfurnace:metalfurnacediamond.name=Diamond Furnace
+tile.metalfurnace:metalfurnaceemerald.name=Emerald Furnace
+tile.metalfurnace:metalfurnacenether.name=Nether Furnace
 tile.metalfurnace:metalfurnaceobsidian.name=Obsidian Furnace

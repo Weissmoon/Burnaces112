@@ -15,6 +15,8 @@ public enum FurnaceType implements IStringSerializable {
     IRON("ingotiron", 160, MapColor.IRON),
     GOLD("ingotgold", 133, MapColor.GOLD),
     DIAMOND("gemdiamond", 100, MapColor.DIAMOND),
+    EMERALD("gememerald", 80, MapColor.EMERALD),
+    NETHER("blockbricknether", 50, MapColor.NETHERRACK, Material.ROCK, SoundType.STONE),
     OBSIDIAN("obsidian", 100, MapColor.OBSIDIAN, Material.ROCK, SoundType.STONE);
 
     private String ingot;
