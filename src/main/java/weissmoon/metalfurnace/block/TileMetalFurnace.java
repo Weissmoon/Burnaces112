@@ -159,7 +159,7 @@ public class TileMetalFurnace extends TileEntityFurnace{
             outputStack.grow(recipeOutput.getCount());
         }
         if (this.furnaceType == FurnaceType.OBSIDIAN){
-            if(RNGHelper.getRNGFloat()>.25){
+            if(RNGHelper.getRNGFloat()<.25){
                 outputStack.grow(recipeOutput.getCount());
             }
         }
