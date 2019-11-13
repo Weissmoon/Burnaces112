@@ -1,20 +1,20 @@
-{
-  "type": "forge:ore_shaped",
-  "pattern": [
-    "ccc",
-    "cfc",
-    "ccc"
-  ],
-  "key": {
-    "c": {
-      "type": "forge:ore_dict",
-      "ore": "obsidian"
-    },
-    "f":{
-      "item": "metalfurnace:metalfurnacediamond"
-    }
-  },
-  "result": {
-    "item": "metalfurnace:metalfurnaceobsidian"
-  }
-}
+//{
+//  "type": "forge:ore_shaped",
+//  "pattern": [
+//    "ccc",
+//    "cfc",
+//    "ccc"
+//  ],
+//  "key": {
+//    "c": {
+//      "type": "forge:ore_dict",
+//      "ore": "obsidianA"
+//    },
+//    "f":{
+//      "item": "metalfurnace:metalfurnacediamond"
+//    }
+//  },
+//  "result": {
+//    "item": "metalfurnace:metalfurnaceobsidian"
+//  }
+//}

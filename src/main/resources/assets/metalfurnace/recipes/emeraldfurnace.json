@@ -1,0 +1,20 @@
+{
+  "type": "forge:ore_shaped",
+  "pattern": [
+    "ccc",
+    "cfc",
+    "ccc"
+  ],
+  "key": {
+    "c": {
+      "type": "forge:ore_dict",
+      "ore": "gemEmerald"
+    },
+    "f":{
+      "item": "metalfurnace:metalfurnacediamond"
+    }
+  },
+  "result": {
+    "item": "metalfurnace:metalfurnaceobsidian"
+  }
+}
